@@ -1,0 +1,12 @@
+#ifndef __LED_H
+#define __LED_H	 
+#include "sys.h"
+//////////////////////////////////////////////////////////////////////////////////	 
+//All rights reserved									  
+////////////////////////////////////////////////////////////////////////////////// 
+#define LED0_ON GPIO_SetBits(GPIOC,GPIO_Pin_13)
+#define LED0_OFF GPIO_ResetBits(GPIOC,GPIO_Pin_13)
+void LED_Init(void);//≥ı ºªØ
+
+		 				    
+#endif
